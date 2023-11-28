@@ -1,0 +1,38 @@
+.popup, .overlay
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+
+.popup
+    // display: block
+    opacity: 0
+    position: fixed
+    // top: 0
+    // left: 0
+    z-index: 9999 !important
+    padding: $baseRadius / 2
+    transition: .3s all ease
+    &.appear
+        opacity: 1
+    & > div 
+        z-index: 100
+        padding: 0
+        margin: 0 auto
+        height: fit-content
+        & > div
+            margin: 0
+    .container 
+        // height: 100vh
+        background: $White
+        z-index: 9999 !important
+
+.overlay
+    position: absolute
+    height: 100% !important
+    z-index: 99 !important
+    background: $White
+
+.popup-form
+    .form-card
+        border-radius: $baseRadius !important

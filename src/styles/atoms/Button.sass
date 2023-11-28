@@ -1,0 +1,51 @@
+
+    
+.button 
+    padding: 13px 20px
+    width: fit-content !important
+    height: fit-content !important
+    border-radius: $baseRadius / 2
+    font-weight: 500
+    margin-right: 30px
+    border: 0
+    cursor: pointer
+    &.white 
+        background: $White
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25)
+        color: $Main
+        &:not(.secondary):hover 
+            background: $Gray
+    &.main 
+        background: $Main
+        color: $White
+        border-radius: 1000px
+        &:not(.secondary):hover 
+            background: $Main
+            color: $White
+    &.secondary 
+        padding: 10px 0px
+        font-weight: 400
+        background: none
+        box-shadow: none
+        border-radius: 0 !important
+        opacity: 0.69
+        position: relative
+        &::after, &::before 
+            bottom: 5px
+        &::before  
+            width: 0px 
+            opacity: 1 
+        &:hover  
+            opacity: 1 
+            &::before  
+                width: 100%  
+        &.white  
+            color: $White 
+            &::after, &::before  
+                background: $White 
+        &.black  
+            color: $Black 
+            &::after, &::before  
+                background: $Black   
+        &.main  
+            color: $Main

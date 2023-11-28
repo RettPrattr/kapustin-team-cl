@@ -1,0 +1,143 @@
+{
+    "data": {
+        "id": 1,
+        "attributes": {
+            "title": null,
+            "createdAt": "2023-06-07T11:21:05.724Z",
+            "updatedAt": "2023-06-07T12:03:13.388Z",
+            "publishedAt": "2023-06-07T11:21:07.371Z",
+            "Header": {
+                "id": 5,
+                "text": "айти команда Капустина ©",
+                "logoText": "Team",
+                "logo": {
+                    "data": {
+                        "id": 59,
+                        "attributes": {
+                            "name": "team-logo.svg",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 318,
+                            "height": 159,
+                            "formats": null,
+                            "hash": "team_logo_3f6c8e5ae9",
+                            "ext": ".svg",
+                            "mime": "image/svg+xml",
+                            "size": 2.1,
+                            "url": "/uploads/team_logo_3f6c8e5ae9.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2023-04-08T11:18:51.834Z",
+                            "updatedAt": "2023-04-08T11:18:51.834Z"
+                        }
+                    }
+                },
+                "navItems": [{
+                    "id": 22,
+                    "href": "we",
+                    "text": "Кто мы"
+                }, {
+                    "id": 23,
+                    "href": "cases",
+                    "text": "Кейсы"
+                }, {
+                    "id": 24,
+                    "href": "services",
+                    "text": "Services"
+                }],
+                "button": {
+                    "id": 25,
+                    "href": "https://t.me/dmitriikapustin",
+                    "text": "Написать нам"
+                }
+            },
+            "Footer": {
+                "id": 4,
+                "title": "<p>Ваш надежный партнёр в&nbsp;области разработки</p>",
+                "subtitle": "Ваш надежный партнёр в области разработки",
+                "phone": "dmitrii@kapustin.team",
+                "address": null,
+                "info": null,
+                "middletext": null,
+                "labeltext": ", команда Капустина ©",
+                "type": 3,
+                "image": {
+                    "data": {
+                        "id": 58,
+                        "attributes": {
+                            "name": "footer-logo.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 1860,
+                            "height": 620,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_footer-logo.png",
+                                    "hash": "thumbnail_footer_logo_b399af35b9",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 245,
+                                    "height": 82,
+                                    "size": 26.91,
+                                    "url": "/uploads/thumbnail_footer_logo_b399af35b9.png"
+                                },
+                                "small": {
+                                    "name": "small_footer-logo.png",
+                                    "hash": "small_footer_logo_b399af35b9",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 167,
+                                    "size": 78.12,
+                                    "url": "/uploads/small_footer_logo_b399af35b9.png"
+                                },
+                                "medium": {
+                                    "name": "medium_footer-logo.png",
+                                    "hash": "medium_footer_logo_b399af35b9",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 250,
+                                    "size": 150.62,
+                                    "url": "/uploads/medium_footer_logo_b399af35b9.png"
+                                },
+                                "large": {
+                                    "name": "large_footer-logo.png",
+                                    "hash": "large_footer_logo_b399af35b9",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 1000,
+                                    "height": 333,
+                                    "size": 243.36,
+                                    "url": "/uploads/large_footer_logo_b399af35b9.png"
+                                }
+                            },
+                            "hash": "footer_logo_b399af35b9",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 130.58,
+                            "url": "/uploads/footer_logo_b399af35b9.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2023-04-07T18:45:33.690Z",
+                            "updatedAt": "2023-04-07T18:59:28.067Z"
+                        }
+                    }
+                },
+                "footerLinks": []
+            },
+            "FixedButton": {
+                "id": 3,
+                "text": "обсудим ваш проект?",
+                "href": "https://t.me/dmitriikapustin",
+                "type": 1
+            }
+        }
+    }
+}    
